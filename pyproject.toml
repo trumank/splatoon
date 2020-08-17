@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "splatoon"
+version = "0.0.0"
+authors = []
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pynput = "^1.6.8"
+pyautogui = "^0.9.50"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
